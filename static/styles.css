@@ -1,0 +1,44 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.form {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#search {
+    font-family: "Montserrat", sans-serif;
+    border-radius: 5px;
+    border-style: hidden;
+    background-color: #d8d8d8;
+    height: 30px;
+    width: 200px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    height: 500px;
+}
+
+.display {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.condition {
+    display: flex;
+    gap: 10px;
+}
+
+.temperature {
+    font-size: 50px;
+}
+
+.name {
+    font-size: 20px;
+}

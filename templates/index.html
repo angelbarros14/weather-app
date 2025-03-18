@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    <div class="display">
+
+    {% if contents %}
+
+        <div class="description"> {{ contents.description }} </div>
+        <div class="name"> {{ contents.name }}, {{ contents.country }}</div>
+        <div class="condition">
+            <div class="temperature"> {{ contents.temperature }} C°</div>
+            <div class="other_conditions">
+                <div class="feels_like"> FEELS LIKE: {{ contents.feels_like }} C°</div>
+                <div class="wind"> WIND: {{ contents.wind }} MPH</div>
+                <div class="humidity"> HUMIDITY: {{ contents.humidity }}%
+            </div>
+            </div>
+        </div>
+        
+    {% endif %}
+    </div>
+
+{% endblock %}
